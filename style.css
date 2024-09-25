@@ -82,6 +82,17 @@ li {
   width: 100vw;
   transition: all 0.4s ease;
   height: auto;
+  animation: moveanimation both;
+  animation-timeline: view();
+}
+
+@keyframes moveanimation {
+  40% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(20%) rotate(5deg) translateY(250px);
+  }
 }
 
 #spidey:hover {
