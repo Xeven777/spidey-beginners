@@ -47,6 +47,25 @@ li {
   color: rgb(235, 76, 76);
 }
 
+#joinbtn {
+  background-color: rgb(185, 26, 26);
+  color: white;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+#joinbtn:hover {
+  background-color: rgb(235, 76, 76);
+  scale: 1.05;
+}
+
+#joinbtn:active {
+  scale: 0.95;
+}
+
 #home {
   width: 100%;
   position: relative;
@@ -61,7 +80,12 @@ li {
   top: 9rem;
   filter: drop-shadow(0 0 0.8rem #000);
   width: 100vw;
+  transition: all 0.4s ease;
   height: auto;
+}
+
+#spidey:hover {
+  transform: scale(1.05);
 }
 
 #heading {

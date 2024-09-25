@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Spiderman🕷️</title>
+    <meta name="description" content="Spiderman🕷️ - fan made website">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Oxanium:wght@200..800&display=swap"
@@ -29,7 +30,7 @@
                     <a class="links" href="#contact">Contact</a>
                 </li>
             </ul>
-            <button title="button" type="button">
+            <button title="button" id="joinbtn" type="button">
                 Join Us
             </button>
         </nav>
@@ -55,5 +56,12 @@
         </p>
     </section>
 </body>
+
+<script>
+    const btn = document.getElementById('joinbtn');
+    btn.addEventListener('click', () => {
+        alert('Do you want to join us in this exciting WEB adventure?🕷️❤️');
+    });
+</script>
 
 </html>
