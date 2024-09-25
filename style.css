@@ -95,10 +95,6 @@ li {
   }
 }
 
-#spidey:hover {
-  transform: scale(1.05);
-}
-
 #heading {
   font-size: 11rem;
   text-shadow: 0 2px 12px #3939399e;
